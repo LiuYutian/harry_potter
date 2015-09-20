@@ -6,6 +6,6 @@ describe('test', function () {
   it('test shoppingCart get books', function() {
 
     var result = ShoppingCart.returnTest();
-    expect(result).toEqual("result");
+    expect(result).toEqual("100.0");
   });
 });
